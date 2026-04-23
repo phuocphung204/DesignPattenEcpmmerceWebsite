@@ -1,0 +1,29 @@
+{
+  "Namespace (file-scoped)": {
+    "prefix": "namespacef",
+    "body": [
+      "namespace ${1:My.Namespace};",
+      "",
+      "${2:public class Program}",
+      "{",
+      "  $0",
+      "}"
+    ],
+    "description": "File-scoped namespace (C# 10+)"
+  },
+  "Namespace (block-scoped)": {
+    "prefix": "namespaceb",
+    "body": [
+      "namespace ${1:My.Namespace}",
+      "{",
+      "  ${2:// usings}",
+      "",
+      "  ${3:public class Program}",
+      "  {",
+      "    $0",
+      "  }",
+      "}"
+    ],
+    "description": "Block-scoped namespace"
+  }
+}

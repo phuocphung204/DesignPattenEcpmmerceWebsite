@@ -1,0 +1,15 @@
+[*.cs]
+
+dotnet_diagnostic.IDE0130.severity = error
+# Vô hiệu hóa cảnh báo về lỗi IDE0290 "Use primary constructor"
+# dotnet_diagnostic.IDE0290.severity = silent
+
+csharp_style_namespace_declarations = file_scoped:warning
+indent_style = space
+indent_size = 2
+
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# CS8618: Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
+dotnet_diagnostic.CS8618.severity = suggestion

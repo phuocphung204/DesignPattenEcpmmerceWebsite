@@ -1,0 +1,70 @@
+# Build results
+bin/
+obj/
+artifacts/
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS/VS Code
+.vs/
+# .vscode/
+*.code-workspace
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+# (Nếu dùng packages.config cũ thì mới bỏ packages/, còn SDK-style thì không cần)
+
+# Publish
+**/publish/
+
+# Logs
+*.log
+Logs/
+*Logs/
+
+# Test results
+TestResults/
+*.trx
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+
+# EF Core
+**/Migrations/*.cs
+!**/Migrations/*.Designer.cs
+!**/Migrations/*.resx
+appsettings.Development.json
+appsettings.json
+
+# Github 
+*.github/
+
+# Agent
+*.gemini/
+*.aiexclude
+*.agent/
+
+# secret
+*secrets/
+docs/
+*docs/

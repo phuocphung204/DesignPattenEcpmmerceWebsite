@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DesignPattern.Application/DesignPattern.Application.csproj" />
+  <Project Path="DesignPattern.Domain/DesignPattern.Domain.csproj" />
+  <Project Path="DesignPattern.Infrastructure/DesignPattern.Infrastructure.csproj" />
+</Solution>

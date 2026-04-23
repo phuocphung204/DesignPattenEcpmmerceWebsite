@@ -1,0 +1,40 @@
+{
+  "cSpell.words": [
+    "aiexclude",
+    "appsettings",
+    "ASUS",
+    "Authorizeable",
+    "autoplay",
+    "ecfeff",
+    "fafc",
+    "finalizer",
+    "freeship",
+    "Hmac",
+    "khóa",
+    "mainboard",
+    "Mediat",
+    "Momo",
+    "seos",
+    "Serilog",
+    "Snapshotable",
+    "thỏa",
+    "wdyr",
+    "xunit",
+    "XVCJ"
+  ],
+  "geminicodeassist.inlineSuggestions.enableAuto": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ms-dotnettools.csharp",
+  "[instructions]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
